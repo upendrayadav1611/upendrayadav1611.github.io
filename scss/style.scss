@@ -1028,25 +1028,17 @@ h1, h2, h3, h4, h5,
 			height: 285px;
 		}
 		.text{
-			max-width: 45%;
-			z-index: 1;
+			
 			h3{
 				font-size: 22px;
 				a{
-					color: $white;
+					color: red($color: #000000);
 				}
 			}
 			span{
-				color: rgba(255,255,255,.8);
+				color: rgba(65, 5, 5, 0.8);
 				text-transform: uppercase;
 				letter-spacing: 2px;
-			}
-			@include media-breakpoint-down(sm){
-				max-width: 100%;
-				opacity: 1;
-				span{
-					color: rgba(255,255,255,.8);
-				}
 			}
 		}
 	}
@@ -1960,4 +1952,4 @@ textarea.form-control {
 .horizontal-list {
     list-style: none;
     padding-left: 0px;
-    margin: 0px;
+	margin: 0px;
