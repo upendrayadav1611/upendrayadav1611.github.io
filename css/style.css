@@ -9672,3 +9672,17 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .project-back{
+      width: 490px;
+      height: 450px;
+      border: 10px solid grey;
+      padding: 8px;
+      margin: 10px;
+      background-color: aliceblue;
+    }
+
+    .project-text-color{
+      text-align: center;
+      text-decoration-style: solid;
+    }
